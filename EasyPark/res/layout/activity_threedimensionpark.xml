@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/white"
+    tools:context="edu.xaut.easypark.ThreeDimensionPark" >
+   
+    <TextView 
+        android:id="@+id/parktitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/parktitle" />
+
+    <ImageView
+        android:id="@+id/uplayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/parktitle"
+        android:layout_alignLeft="@+id/downlayer"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/park1" />
+
+    <ImageView
+        android:id="@+id/downlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/uplayer"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/park2" />
+
+</RelativeLayout>

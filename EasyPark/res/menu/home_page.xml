@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.xaut.easypark.HomePageActivity" >
+
+    <item
+        android:id="@+id/near_parkinglot"
+        android:title="@string/near_parkinglot" />
+
+</menu>

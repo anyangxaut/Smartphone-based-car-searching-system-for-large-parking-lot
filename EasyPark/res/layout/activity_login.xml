@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="1"
+              android:orientation="vertical"
+              android:background="@drawable/whitebackground">
+
+    <LinearLayout
+            android:id="@+id/upLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            android:background="@drawable/firstlayout">
+
+        <ImageView
+                android:id="@+id/logo"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/login"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/app_name"
+                android:layout_gravity="center" />
+
+        <TextView
+                android:id="@+id/logoTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="#ff000000"
+                android:textSize="22sp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center" />
+
+        <!-- 账号 -->
+        <EditText
+                android:id="@+id/username"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/login_username"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:textColor="#ff000000"
+                android:inputType="text"/>
+
+        <!-- 密码 text -->
+        <EditText
+                android:id="@+id/password"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_width="280dp"
+                android:hint="@string/login_password"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:textColor="#ff000000"
+                android:inputType="textPassword" />
+        
+        <CheckBox  
+            android:id="@+id/rempasswd"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"  
+            android:text="@string/rempasswd" />  
+  
+
+        <!-- 登录button -->
+        <Button
+                android:id="@+id/login_button"
+                android:layout_height="wrap_content"
+                android:layout_width="280dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_color"
+                android:text="@string/login_button"
+                android:textColor="@drawable/button_font"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/downLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+        <TextView
+                android:id="@+id/textView1"
+                android:layout_marginTop="20dp"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000000"
+                android:text="@string/registerinfo"/>
+
+        <!-- 注册button -->
+        <Button
+                android:id="@+id/register_button"
+                android:layout_height="wrap_content"
+                android:layout_width="280dp"
+                android:layout_gravity="center"
+                android:background="@drawable/register_color"
+                android:text="@string/register_button"
+                android:textColor="@drawable/button_font"/>
+
+        <TextView
+                android:id="@+id/textView2"
+                android:textColor="#ff000000"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="47dp"
+                android:text="@string/versioninfo"/>
+
+    </LinearLayout>
+
+</LinearLayout>

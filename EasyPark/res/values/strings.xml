@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">基于智能手机的停车场寻车系统</string>
+    <string name="login_username">用户名</string>
+    <string name="login_password">密码</string>
+    <string name="login_button">登录</string>
+    <string name="register_button">注册</string>
+    <string name="registerinfo">点击注册，尽享停车智能新生活</string>
+    <string name="versioninfo">声明：版权所有，本软件需要授权使用，否则追究法律责任</string>
+    <string name="rempasswd">记住密码</string>
+    <string name="near_parkinglot">获取附近停车场</string>
+    <string name="select_parkinglot">选择该停车场</string>
+    <string name="car_location">停车位置</string>
+    <string name="user_location">用户位置</string>
+    <string name="parkingnum">空余停车位数量：5</string>
+    <string name="title_activity_two_dimension_park">TwoDimensionPark</string>
+    <string name="cancel">取消</string>
+    <string name="action_settings">Settings</string>
+    <string name="centimeters">厘米</string>
+    <string name="step_length_setting_title">请输入您的步长</string>
+    <string name="parktitle">立丰国际地下停车场</string>
+    <string name="scanQrcodeParkingLot">扫描二维码(车位)</string>
+    <string name="scanQrcodeUser">扫描二维码(用户)</string>   
+
+</resources>
